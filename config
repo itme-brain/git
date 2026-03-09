@@ -1,0 +1,22 @@
+[init]
+	defaultBranch = master
+
+[merge]
+	tool = vimdiff
+
+[mergetool]
+	keepBackup = false
+
+[mergetool "vimdiff"]
+	trustExitCode = true
+
+[url "git@github.com:itme-brain/"]
+	insteadOf = https://github.com/itme-brain/
+
+[user]
+	name = Bryan Ramos
+	email = bryan@ramos.codes
+	signingKey = F1F3466458452B2DF351F1E864D12BA95ACE1F2D
+
+[commit]
+	gpgSign = false
