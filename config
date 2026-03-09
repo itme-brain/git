@@ -1,6 +1,9 @@
 [init]
 	defaultBranch = master
 
+[diff]
+	tool = vimdiff
+
 [merge]
 	tool = vimdiff
 
@@ -17,6 +20,9 @@
 	name = Bryan Ramos
 	email = bryan@ramos.codes
 	signingKey = F1F3466458452B2DF351F1E864D12BA95ACE1F2D
+
+[push]
+	autoSetupRemote = true
 
 [commit]
 	gpgSign = false
