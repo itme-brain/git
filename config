@@ -14,10 +14,6 @@
 [mergetool "vimdiff"]
 	trustExitCode = true
 
-# Rewrite HTTPS to SSH for personal repos
-[url "git@github.com:itme-brain/"]
-	insteadOf = https://github.com/itme-brain/
-
 [user]
 	name = Bryan Ramos
 	email = bryan@ramos.codes
